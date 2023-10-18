@@ -4,7 +4,6 @@ import 'package:intl_phone_number_input/intl_phone_number_input.dart';
 import 'package:my_maps/config/text_style.dart';
 import 'package:my_maps/core/utalis/app_color.dart';
 import 'package:my_maps/core/utalis/app_strings.dart';
-import 'package:my_maps/presentation/widgets/custom_button.dart';
 
 class LoginScreen extends StatelessWidget {
   final _formKey = GlobalKey<FormState>();

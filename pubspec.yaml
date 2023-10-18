@@ -35,6 +35,7 @@ dependencies:
   firebase_core: ^2.18.0
   bloc: ^8.1.2
   pin_code_fields: ^8.0.1
+  firebase_auth: ^4.11.0
 
 dev_dependencies:
   flutter_test:

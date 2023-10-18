@@ -1,11 +1,9 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:my_maps/config/text_style.dart';
 import 'package:my_maps/core/utalis/app_color.dart';
 import 'package:my_maps/core/utalis/app_strings.dart';
 import 'package:my_maps/presentation/widgets/pine_code_textfield.dart';
-import 'package:pin_code_fields/pin_code_fields.dart';
 
 class OtpScreen extends StatelessWidget {
   const OtpScreen({super.key});

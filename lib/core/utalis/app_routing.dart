@@ -15,7 +15,7 @@ class AppRouting {
         );
       case AppStrings.otpRoute:
         return MaterialPageRoute(
-          builder: (context) =>  OtpScreen(),
+          builder: (context) => const OtpScreen(),
         );
     }
     return null;
