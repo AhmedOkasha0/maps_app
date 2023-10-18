@@ -67,16 +67,10 @@ class LoginScreen extends StatelessWidget {
                       SizedBox(
                           height: 50.h,
                           width: 114.w,
-                          child: CustomElevatedButton(
-                              text: AppStrings.next,
-                              function: () {
-                                if (_formKey.currentState!.validate()) {
-                                  ScaffoldMessenger.of(context).showSnackBar(
-                                    const SnackBar(
-                                        content: Text('Processing Data')),
-                                  );
-                                }
-                              })),
+                          child:ElevatedButton(onPressed: (){
+                            Navigator.pushNamed(context,AppStrings.otpRoute);
+
+                          }, child: const Text("Next")),),
                     ],
                   ),
                   SizedBox(

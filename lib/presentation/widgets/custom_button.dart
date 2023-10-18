@@ -14,12 +14,14 @@ class CustomElevatedButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ElevatedButton(
+      onPressed: function(),
       // ignore: sort_child_properties_last
-      child: Text(text,style: StylesText.textStyle14,),
-      onPressed: () => function ,
-      style: const ButtonStyle(
-        backgroundColor: MaterialStatePropertyAll(AppColor.balck)
+      child: Text(
+        text,
+        style: StylesText.textStyle14,
       ),
+      style: const ButtonStyle(
+          backgroundColor: MaterialStatePropertyAll(AppColor.balck)),
     );
   }
 }
