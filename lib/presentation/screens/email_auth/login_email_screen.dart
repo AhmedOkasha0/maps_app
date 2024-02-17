@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_maps/core/utalis/app_color.dart';
 
 class LoginWithEmail extends StatelessWidget {
   const LoginWithEmail({super.key});
@@ -9,6 +10,7 @@ class LoginWithEmail extends StatelessWidget {
       child: Scaffold(
         body: Column(children: [
           Container(
+            color: AppColor.black,
             
           )
         ]),
