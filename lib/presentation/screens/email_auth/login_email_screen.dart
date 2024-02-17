@@ -7,7 +7,11 @@ class LoginWithEmail extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        body: Column(children: []),
+        body: Column(children: [
+          Container(
+            
+          )
+        ]),
       ),
     );
   }
