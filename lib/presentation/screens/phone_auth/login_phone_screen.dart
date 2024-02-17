@@ -82,7 +82,7 @@ class LoginScreen extends StatelessWidget {
                       AppStrings.logiWithEmail,
                       textAlign: TextAlign.center,
                       style: StylesText.textStyle17.copyWith(
-                          color: AppColor.balck,
+                          color: AppColor.black,
                           fontSize: 17.sp,
                           fontWeight: FontWeight.bold),
                     ),

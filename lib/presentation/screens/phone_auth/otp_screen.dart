@@ -58,7 +58,7 @@ class OtpScreen extends StatelessWidget {
                       style: ElevatedButton.styleFrom(
                           shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(8.w)),
-                          backgroundColor: AppColor.balck,
+                          backgroundColor: AppColor.black,
                           fixedSize: Size(114.w, 46.h)),
                       child: const Text("Verfy")),
                 ],

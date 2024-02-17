@@ -21,7 +21,7 @@ class CustomElevatedButton extends StatelessWidget {
         style: StylesText.textStyle14,
       ),
       style: const ButtonStyle(
-          backgroundColor: MaterialStatePropertyAll(AppColor.balck)),
+          backgroundColor: MaterialStatePropertyAll(AppColor.black)),
     );
   }
 }

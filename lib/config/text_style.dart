@@ -23,7 +23,7 @@ class StylesText {
   );
   static const textStyle24 = TextStyle(
     fontWeight: FontWeight.w700,
-    color: AppColor.balck,
+    color: AppColor.black,
   );
   static const textStyle17 = TextStyle(
     fontWeight: FontWeight.w400,
